@@ -17,7 +17,7 @@ const Index = () => {
             </div>
 
             {isList && (
-                <div className=" justify-center flex mt-2 p-4 bg-white shadow rounded">
+                <div className=" justify-center flex mt-2 p-4 bg-white shadow rounded ">
                     <div className="flex items-center justify-center">
                         <div className=" text-black"> 
                             <Copy/>

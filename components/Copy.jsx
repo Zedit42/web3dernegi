@@ -22,7 +22,7 @@ class Datepicker extends React.Component {
             >
               <div>
                 <i className="ni ni-active-40" />
-                <span>https://twitter.com/ahbap/status/1622963311514996739</span>
+                <span className="flex max-sm:text-sm max-sm:font-extralight">https://twitter.com/ahbap/status/1622963311514996739</span>
               </div>
             </Button>
           </CopyToClipboard>

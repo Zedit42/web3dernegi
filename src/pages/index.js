@@ -19,13 +19,13 @@ export default function Home() {
               className=' w-screen h-screen -z-10 fixed '
             />
         <div className=' text-white font-semibold text-center flex flex-col '>
-          <div className=' pt-[1rem] flex flex-col  mx-[5rem] h-screen '>
+          <div className=' pt-[1rem] flex flex-col  mx-[5rem] max-sm:mx-[1rem] h-screen '>
             <img
               src='/web3.png'
               className=' max-w-[600px] mx-auto w-full shadow-lg shadow-black'
             
             />
-            <div className=' flex text-2xl py-[1rem]'>
+            <div className=' flex text-2xl py-[1rem] '>
               Turkey lived poerfull quake which hit near the town Kahramanmaraş Türkiye of was closely followed by numerous aftershocks - including one quake which was almost as large as the first.
             </div>
             <div className=' flex text-sm font-light'>
