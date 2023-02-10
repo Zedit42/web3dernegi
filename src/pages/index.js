@@ -31,12 +31,13 @@ export default function Home() {
             <div className=' flex text-sm font-light justify-center pt-1 flex-row flex-wrap'>
               Major earthquakes and aftershocks caused a widespread destruction. The death toll is rising. Millions of people are living in temporary shelters, cars and containers with very limited supplies of food, water, clothes and electricity. To support the lives affected by the earthquake, NGOs started to collect donations. As Web3.0 Technologies Association, we encourage you to spread the news & donate to the official crypto wallet addresses of  &nbsp;  <a href='https://twitter.com/Kizilay/status/1623619343014674432' className=' font-bold text-lg text-red-500 hover:text-red-400'>Kizilay (Red Crescent)</a> &nbsp; &nbsp; <a href='https://www.afad.gov.tr/depremkampanyasi2' className=' font-bold text-lg text-blue-500 hover:text-blue-400'>AFAD (Turkiye Emergency Management Presidency)</a> &nbsp; &nbsp;<a href='https://twitter.com/ahbap/status/1622963311514996739' className=' font-bold text-lg text-green-500 hover:text-green-400'>Ahbap</a>          
             </div>
+            <div className=' flex text-sm font-bold font-serif justify-center pt-1  flex-row flex-wrap'> ! Donations will only be made to AHBAP & Kızılay and AFAD  </div>
             <div className=' flex justify-center mt-5'>
               <Drop/>
             </div>
           </div>
         </div>
-
+n
       </div>
 
     </>
