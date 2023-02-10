@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logoS.jpeg" />
       </Head>
-      <div className=" w-screen h-screen">
+      <div className=" w-full min-h-[1100px] h-full">
             <img
               src='/hatayB.jpeg'
               className=' w-screen h-screen -z-10 fixed '
