@@ -17,9 +17,8 @@ const Index = () => {
   }
 
   return (
-    <div>
-      <div
-        onClick={async () => {
+    <div
+            onClick={async () => {
           setIsList(!isList);
 
           var index = Tweetle();
@@ -29,6 +28,9 @@ const Index = () => {
             window.open(snapshot.val(), "_blank");
           });
         }}
+    >
+      <div
+
         className=" max-w-[8rem] py-4 px-6 mb-4 shadow rounded bg-[#00acee] font-medium leading-none text-white text-center flex items-center justify-center mx-auto cursor-pointer"
       >
         Tweet
