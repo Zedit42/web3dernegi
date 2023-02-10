@@ -18,19 +18,22 @@ const Index = () => {
 
   return (
     <div
-            onClick={async () => {
+    >
+      <div
+        onClick={async () => {
+
           setIsList(!isList);
 
           var index = Tweetle();
 
           const starCountRef = ref(database, "Data/" + index);
           onValue(starCountRef, (snapshot) => {
-            window.open(snapshot.val(), "_blank");
+            window.location.href = snapshot.val();
+            // javascript: void window.open("https://www.oracle.com/", "_blank");
+            // window.open(snapshot.val(), "_blank");
           });
+               
         }}
-    >
-      <div
-
         className=" max-w-[8rem] py-4 px-6 mb-4 shadow rounded bg-[#00acee] font-medium leading-none text-white text-center flex items-center justify-center mx-auto cursor-pointer"
       >
         Tweet
