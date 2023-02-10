@@ -13,7 +13,7 @@ const Index = () => {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
   function Tweetle() {
-    return randomRange(0, 5000);
+    return randomRange(0, 10000);
   }
 
   return (
