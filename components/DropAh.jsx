@@ -13,7 +13,7 @@ const Index = () => {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
   function Tweetle() {
-    return randomRange(0, 10000);
+    return randomRange(20000, 30000);
   }
 
   return (
@@ -33,9 +33,9 @@ const Index = () => {
             // window.open(snapshot.val(), "_blank");
           });
         }}
-        className=" max-w-[8rem] py-4 px-6 mb-4 shadow rounded bg-[#00acee] font-medium leading-none text-white text-center flex items-center justify-center mx-auto cursor-pointer"
+        className=" max-w-[14rem] py-4 px-6 mb-4 shadow rounded bg-[#00acee] font-medium leading-none text-white text-center flex items-center justify-center mx-auto cursor-pointer"
       >
-        Tweet
+        Tweet For Afad
         <Image src="/twitterW.svg" width={25} height={50} className=" ml-3" />
       </div>
     </div>
